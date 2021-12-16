@@ -1,0 +1,142 @@
+.TableContainer {
+  width: 100%;
+}
+
+.TableHead {
+  background-color: var(--blurred-purple-color);
+}
+
+.TableHead th {
+  font-weight: 600;
+  padding: 16px;
+  color: var(--light-purple-color);
+  text-align: inherit;
+  cursor: pointer;
+}
+
+.TableHead th span {
+  display: flex;
+}
+
+.TableHead th i {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+.TableHead th span i svg {
+  margin-left: 4px;
+}
+
+.TableBody tr td {
+  padding: 16px;
+  color: var(--light-gray-color);
+  cursor: default;
+  vertical-align: top;
+}
+
+.TableBody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.041);
+}
+
+.TableBody tr:hover {
+  background-color: rgba(0, 0, 0, 0.041);
+}
+
+.EditRow {
+  display: flex;
+  align-items: center;
+}
+
+.EditRow svg {
+  cursor: pointer;
+}
+
+.EditRow button {
+  background-color: transparent;
+}
+
+.EditRow button:not(:last-child)  {
+  margin-right: 20px;
+}
+
+.Disabled {
+  color: grey;
+}
+
+.CheckIcon {
+  color: var(--light-green-color);
+}
+
+.DeleteIcon{
+  color: var(--red-color);
+}
+
+.EditIcon,
+.BackIcon {
+  color: var(--light-purple-color);
+}
+
+.CheckIcon,
+.EditIcon,
+.Disabled,.DeleteIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.BackIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.NoData {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: default;
+}
+
+.errMessage {
+  color: red;
+  font-size: 11px;
+  padding-top: 4px;
+}
+
+.Input {
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  padding-left: 8px;
+  color: #565656;
+  height: 38px;
+  width: 100%;
+  box-shadow: none;
+  transition: all 0.3s linear;
+}
+
+.TextArea {
+  resize: none;
+  height: auto;
+  /* min-width: 300px; */
+}
+
+.hasError {
+  border: 1px solid red;
+}
+
+@media only screen and (max-width: 960px) {
+  .TableContainer {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    white-space: nowrap;
+  }
+
+  .TableContainer .TableBody {
+    width: 100%;
+  }
+}

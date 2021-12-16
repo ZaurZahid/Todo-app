@@ -1,0 +1,126 @@
+.TopSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  color: var(--light-gray-color);
+  padding-bottom: 25px;
+  border-bottom:1px solid  var(--scroll-background-color);
+}
+
+.TopSection div:first-child {
+  margin-right: 20px;
+}
+
+.TopSection label {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.TopSection input {
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  padding-left: 8px;
+  color: var(--light-gray-color);
+  height: 38px;
+  max-width: 100%;
+  box-shadow: none;
+  transition: all 300ms linear;
+}
+
+.LeftSide,
+.LeftSide>div{
+  display: flex;
+  align-items: center;
+}
+
+.LeftSide>div{
+    margin-left:20px
+}
+
+.SwitchContainer p{
+  margin-left:10px
+}
+
+.Switch{
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 18px;
+}
+
+.Switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.Slider{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 18px;
+}
+
+.Slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 3px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .Slider {
+  background-color: var(--light-purple-color);
+}
+
+input:disabled + .Slider{
+  background-color: var(--light-gray-color);
+}
+
+input:focus + .Slider {
+  box-shadow: 0 0 1px var(--light-purple-color);
+}
+
+input:checked + .Slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+@media only screen and (max-width: 960px) {
+  .TopSection{
+    flex-direction: column;
+    align-items:flex-start
+  }
+
+  .LeftSide{
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .SearchContainer,.SearchContainer input{
+    width:100%;
+  }
+ 
+  .SearchContainer label  {
+    display: none;
+  }
+
+  .SwitchContainer p{
+    display: none;
+  }
+}

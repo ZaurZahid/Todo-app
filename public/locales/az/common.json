@@ -1,0 +1,22 @@
+{
+    "Create new todo":"Yeni todo yarat" ,
+    "New todo added":"Yeni todo əlavə edildi",
+    "Enter task name":"Taskın adını daxil edin",
+    "Add":"Əlavə et",
+    "Actions":"Əməliyyat",
+    "Name":"Ad",
+    "Deadline":"Son tarix",
+    "Values are the same":"Dəyərlər eynidir",
+    "Todo was updated":"Todo yeniləndi",
+    "This field is required":"Bu xananın doldurulması məcburidir",
+    "Todo was deleted":"Todo silindi",
+    "Type name":"Adı yazın",
+    "No data":"Məlumat yoxdur",
+    "Show completed only":"yalnız tamamlanmışlar",
+    "result":"nəticə",
+    "results":"nəticə",
+    "found":"tapıldı",
+    "Search for todo":"Todo axtarın",
+    "Table of Todo items":"Todo cədvəli",
+    "Loading":"Yüklənir" 
+} 

@@ -1,0 +1,15 @@
+export const TODO_START = "TODO_START";
+export const SUCCESS_TODO = "SUCCESS_TODO";
+export const TODO_ERROR = "TODO_ERROR";
+
+export const CREATE_START = "CREATE_START";
+export const CREATE_SUCCESS = "CREATE_SUCCESS";
+export const CREATE_ERROR = "CREATE_ERROR";
+
+export const TODO_START_CHANGE = "TODO_START_CHANGE";
+export const SUCCESS_TODO_CHANGE = "SUCCESS_TODO_CHANGE";
+export const TODO_ERROR_CHANGE = "TODO_ERROR_CHANGE";
+
+export const DELETE_START = "DELETE_START";
+export const DELETE_SUCCESS = "DELETE_SUCCESS";
+export const DELETE_ERROR = "DELETE_ERROR";

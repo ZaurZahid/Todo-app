@@ -1,0 +1,22 @@
+{
+    "Create new todo":"Створити нове завдання",
+    "New todo added":"Додано нове завдання",
+    "Enter task name":"Введіть назву завдання",
+    "Add":"Додати",
+    "Actions":"Дії",
+    "Name":"Ім'я",
+    "Deadline":"Дедлайн",
+    "Values are the same":"Цінності однакові",
+    "Todo was updated":"Таблицю оновлено",
+    "This field is required":"Це поле є обов'язковим",
+    "Todo was deleted":"Todo було видалено",
+    "Type name":"Введіть назву",
+    "No data":"Немає даних",
+    "Show completed only":"Показати лише завершені",
+    "result":"результат",
+    "results":"результати",
+    "found":"знайдено",
+    "Search for todo":"Шукайте завдання",
+    "Table of Todo items":"Таблиця предметів Todo",
+    "Loading":"Завантаження"
+}  

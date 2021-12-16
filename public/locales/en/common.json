@@ -1,0 +1,22 @@
+{
+    "Create new todo":"Create new todo",
+    "New todo added":"New todo added",
+    "Enter task name":"Enter task name",
+    "Add":"Add",
+    "Actions":"Actions",
+    "Name":"Name",
+    "Deadline":"Deadline",
+    "Values are the same":"Values are the same",
+    "Todo was updated":"Todo was updated",
+    "This field is required":"This field is required",
+    "Todo was deleted":"Todo was deleted",
+    "Type name":"Type name",
+    "No data":"No data",
+    "Show completed only":"Show completed only",
+    "result":"result",
+    "results":"results",
+    "found":"found",
+    "Search for todo":"Search for todo",
+    "Table of Todo items":"Table of Todo items",
+    "Loading":"Loading"
+} 

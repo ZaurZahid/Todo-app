@@ -1,0 +1,32 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--blurred-purple-color);
+  min-height: 100vh;
+}
+
+.LanguageContainer{
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  width: 95%;
+  margin-top: 10px;
+}
+
+.LanguageContainer button{
+  background-color: var(--scroll-background-color);
+  color: var(--light-purple-color);
+  border:1px solid var(--scroll-background-color);
+  padding:4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0px 20px 50px rgb(0 0 0 / 15%);
+  cursor: pointer;
+}
+
+.LanguageContainer .Active{
+  background-color: var(--light-purple-color);
+  color: var(--scroll-background-color);
+  border:1px solid var(--light-purple-color);
+}
