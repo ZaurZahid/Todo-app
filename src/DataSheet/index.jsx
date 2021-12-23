@@ -12,7 +12,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { changeField, loadTodos, deleteTodo } from './../redux/actions/items';
 import { I18n } from 'react-redux-i18n';
 
-function index ) {
+function index() {
 	const dispatch = useDispatch();
 	const todoState = useSelector((state) => state.todoState);
 	const [search, setSearch] = useState('')
